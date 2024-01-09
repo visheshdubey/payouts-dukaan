@@ -20,7 +20,7 @@ function App() {
               </p>
             </div>
             <svg
-              className="ml-auto"
+              className="ml-auto cursor-pointer"
               width="20"
               height="20"
               viewBox="0 0 20 20"
@@ -402,7 +402,9 @@ function App() {
         <div className="flex flex-col flex-1 w-full">
           <div className="sticky top-0 z-50 flex w-full gap-4 px-8 py-3 bg-white border-b border-b-black/15">
             <div className="flex items-center flex-1 gap-4 ">
-              <span className="text-[20px] font-medium ">Payouts</span>
+              <span className="text-[20px] font-medium text-[#1A181E]">
+                Payouts
+              </span>
               <div className="flex items-center gap-2 text-black/70">
                 <svg
                   width="14"
@@ -509,7 +511,7 @@ function App() {
           </div>
           <main className="flex flex-col w-full p-8 space-y-6 ">
             <section className="flex items-center justify-between w-full ">
-              <h1 className="text-xl font-medium">Overview</h1>
+              <h1 className="text-xl font-medium text-[#1A181E]">Overview</h1>
               <aside className="relative bg-white">
                 <select className=" py-1.5 pl-3.5 pr-9 appearance-none hover:cursor-pointer bg-white border border-border rounded-md  ">
                   <option>This Month</option>
@@ -576,7 +578,9 @@ function App() {
                   <span className="text-[32px] leading-[38px] grow font-medium">
                     ₹2,312.23
                   </span>
-                  <span className="font-medium underline">23 Orders</span>
+                  <span className="font-medium underline cursor-pointer">
+                    23 Orders
+                  </span>
                   <svg
                     className="hover:cursor-pointer"
                     width="25"
@@ -640,10 +644,10 @@ function App() {
                   </svg>
                 </span>
                 <div className="flex items-center">
-                  <span className="text-[32px] leading-[38px] grow font-medium">
+                  <span className="text-[32px] leading-[38px] grow font-medium text-[#1A181E]">
                     ₹92,312.20
                   </span>
-                  <span className="font-medium underline text-[#146EB4]">
+                  <span className="font-medium underline cursor-pointer text-[#146EB4]">
                     13 Orders
                   </span>
                   <svg
@@ -705,7 +709,7 @@ function App() {
                   </svg>
                 </span>
                 <div className="flex items-center">
-                  <span className="text-[32px] leading-[38px] grow font-medium">
+                  <span className="text-[32px] leading-[38px] grow font-medium text-[#1A181E]">
                     ₹23,92,312.19
                   </span>
                 </div>
@@ -713,12 +717,12 @@ function App() {
             </section>
             <section className="flex flex-col w-full gap-6">
               <div className="flex flex-col gap-6">
-                <span className="text-xl font-medium">
+                <span className="text-xl font-medium text-[#1A181E]">
                   Transactions | This Month
                 </span>
                 <div className="flex gap-3">
-                  <span className="px-4 py-[6px] text-sm rounded-full font-medium bg-black/10 text-black/50">{`Payouts (22)`}</span>
-                  <span className="px-4 py-[6px] text-sm rounded-full font-medium bg-[#146EB4] text-white">{`Refunds (6)`}</span>
+                  <span className="px-4 py-[6px] text-sm rounded-full font-medium bg-black/10 text-black/50 cursor-pointer">{`Payouts (22)`}</span>
+                  <span className="px-4 py-[6px] text-sm rounded-full font-medium bg-[#146EB4] text-white cursor-pointer">{`Refunds (6)`}</span>
                 </div>
                 <div
                   className="flex flex-col gap-3 px-3 pt-3 pb-2 bg-white rounded-md "
@@ -824,7 +828,7 @@ function App() {
                     </tr>
                     <tr className="border-b border-b-[#E6E6E6]">
                       <td className="text-[#146EB4] px-0 text-sm leading-5 font-medium">
-                        <p className=" py-3.5 ml-3">#281209</p>
+                        <p className=" py-3.5 cursor-pointer  ml-3">#281209</p>
                       </td>
                       <td className="text-[#1A181E] px-0 text-sm leading-5 ">
                         <p className="flex gap-2 items-center  py-3.5 ml-3">
@@ -844,7 +848,7 @@ function App() {
                     </tr>
                     <tr className="border-b border-b-[#E6E6E6]">
                       <td className="text-[#146EB4] px-0 text-sm leading-5 font-medium">
-                        <p className=" py-3.5 ml-3">#281208</p>
+                        <p className=" py-3.5 cursor-pointer  ml-3">#281208</p>
                       </td>
                       <td className="text-[#1A181E] px-0 text-sm leading-5 ">
                         <p className="flex gap-2 items-center  py-3.5 ml-3">
@@ -864,7 +868,7 @@ function App() {
                     </tr>
                     <tr className="border-b border-b-[#E6E6E6]">
                       <td className="text-[#146EB4] px-0 text-sm leading-5 font-medium">
-                        <p className=" py-3.5 ml-3">#281207</p>
+                        <p className=" py-3.5 cursor-pointer  ml-3">#281207</p>
                       </td>
                       <td className="text-[#1A181E] px-0 text-sm leading-5 ">
                         <p className="flex gap-2 items-center  py-3.5 ml-3">
@@ -884,7 +888,7 @@ function App() {
                     </tr>
                     <tr className="border-b border-b-[#E6E6E6]">
                       <td className="text-[#146EB4] px-0 text-sm leading-5 font-medium">
-                        <p className=" py-3.5 ml-3">#281206</p>
+                        <p className=" py-3.5 cursor-pointer  ml-3">#281206</p>
                       </td>
                       <td className="text-[#1A181E] px-0 text-sm leading-5 ">
                         <p className="flex gap-2 items-center  py-3.5 ml-3">
@@ -904,7 +908,7 @@ function App() {
                     </tr>
                     <tr className="border-b border-b-[#E6E6E6]">
                       <td className="text-[#146EB4] px-0 text-sm leading-5 font-medium">
-                        <p className=" py-3.5 ml-3">#281205</p>
+                        <p className=" py-3.5 cursor-pointer  ml-3">#281205</p>
                       </td>
                       <td className="text-[#1A181E] px-0 text-sm leading-5 ">
                         <p className="flex gap-2 items-center  py-3.5 ml-3">
@@ -924,7 +928,7 @@ function App() {
                     </tr>
                     <tr className="">
                       <td className="text-[#146EB4] px-0 text-sm leading-5 font-medium">
-                        <p className=" py-3.5 ml-3">#281204</p>
+                        <p className=" py-3.5 cursor-pointer  ml-3">#281204</p>
                       </td>
                       <td className="text-[#1A181E] px-0 text-sm leading-5 ">
                         <p className="flex gap-2 items-center  py-3.5 ml-3">
