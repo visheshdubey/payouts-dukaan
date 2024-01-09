@@ -16,13 +16,13 @@ This project was created as an assignment for [Dukaan.io](https://dukaan.io/).
 1. **Clone the Repository**: Clone the repository containing your Vite React TypeScript project using Git.
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/visheshdubey/payouts-dukaan.git
    ```
 
 2. **Navigate to Project Directory**: Move into the project directory.
 
    ```bash
-   cd <project-directory>
+   cd payouts-dukaan
    ```
 
 3. **Install Dependencies**: Use npm or Yarn to install project dependencies.
