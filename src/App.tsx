@@ -1,11 +1,11 @@
-import '@/globals.css';
+import "@/globals.css";
 
-import logo from '@/assets/logo.png';
+import logo from "@/assets/logo.png";
 
-import { Icons } from './components/icons';
-import KPICard from './components/KpiCards';
-import SideNavListItem from './components/SideNavListItem';
-import TableRow from './components/TableRow';
+import { Icons } from "./components/icons";
+import KPICard from "./components/KpiCards";
+import SideNavListItem from "./components/SideNavListItem";
+import TableRow from "./components/TableRow";
 
 const navItems = [
   { icon: <Icons.home />, name: "Home" },
@@ -15,7 +15,6 @@ const navItems = [
   { icon: <Icons.marketing />, name: "Marketing" },
   { icon: <Icons.analytics />, name: "Analytics" },
   { icon: <Icons.paymentsActive />, name: "Payments", isActive: true },
-  { icon: <Icons.tools />, name: "Tools" },
   { icon: <Icons.discounts />, name: "Discounts" },
   { icon: <Icons.audience />, name: "Audience" },
   { icon: <Icons.appearance />, name: "Appearance" },
