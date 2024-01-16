@@ -36,7 +36,11 @@ const SidebarNav = ({
       </div>
       <nav className="flex-1 space-y-1" aria-label="Main">
         {roleBasedNavFilter(navItems, role).map((item, index) => (
-          <SideNavListItem role={role} key={index} item={item} />
+          <SideNavListItem
+            role={role}
+            key={`role-based-nav-${index}`}
+            item={item}
+          />
         ))}
       </nav>
       <section
