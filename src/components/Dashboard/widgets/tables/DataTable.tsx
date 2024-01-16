@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { TableData } from "@/types/Table";
 
 import TableCard from "./TableCard";
@@ -20,7 +21,10 @@ const DataTable = ({
             {columns.map((item, index) => (
               <th
                 key={`column-header-item-${index}`}
-                className="py-2.5 px-3 font-medium bg-[#F2F2F2] rounded-l text-sm"
+                className={cn(
+                  "py-2.5 px-3 font-medium bg-[#F2F2F2] rounded-l text-sm",
+                  columns.length === index + 1 && "text-end"
+                )}
                 scope="col"
               >
                 {item}
