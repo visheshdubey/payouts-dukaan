@@ -31,7 +31,7 @@ const DataTable = ({
         <tbody>
           {tableData.map((item) => (
             <TableRow
-              key={item.id}
+              key={`table-row-${item.id}`}
               id={item.id}
               status={item.status}
               orderId={item.orderId}

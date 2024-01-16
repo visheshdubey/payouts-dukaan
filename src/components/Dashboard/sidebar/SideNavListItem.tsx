@@ -38,8 +38,9 @@ const SideNavListItem: React.FC<SideNavListItemProps> = ({
       <div className="flex flex-col h-fit text-white/80">
         {toggleChildren &&
           childrens &&
-          roleBasedNavChildFilter(childrens, role).map((child) => (
+          roleBasedNavChildFilter(childrens, role).map((child, index) => (
             <span
+              key={`role-based-nav-child-${index}`}
               className={cn(
                 "flex items-center justify-between px-4 py-2 ml-8 text-sm",
                 "hover:bg-white/10 hover:cursor-pointer hover:rounded",
