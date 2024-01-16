@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-import { Icons } from "./icons";
+import { Icons } from "../../theme/icons";
 
 interface InfoCardProps {
   title: string;
