@@ -12,7 +12,9 @@ const DashboardSection = ({
   return <section className={cn(className)}>{children}</section>;
 };
 export const DashboardSectionTitle = ({ children }: { children: string }) => {
-  return <h1 className="text-xl font-medium text-[#1A181E]">{children}</h1>;
+  return (
+    <h1 className="text-xl font-medium text-foreground-theme">{children}</h1>
+  );
 };
 
 export default DashboardSection;

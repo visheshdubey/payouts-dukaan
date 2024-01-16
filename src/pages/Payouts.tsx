@@ -5,8 +5,8 @@ import DashboardSection, {
 } from "@/components/Dashboard/main-content/DashboardSection";
 import DashboardTopNav from "@/components/Dashboard/main-content/DashboardTopNav";
 import ComboBox from "@/components/Dashboard/widgets/ComboBox";
-import DataTable from "@/components/Dashboard/widgets/DataTable";
 import KPICard from "@/components/Dashboard/widgets/KpiCards";
+import DataTable from "@/components/Dashboard/widgets/tables/DataTable";
 import Tabs from "@/components/Dashboard/widgets/Tabs";
 import { kpiData } from "@/data/metrics";
 import { tabData } from "@/data/tabData";

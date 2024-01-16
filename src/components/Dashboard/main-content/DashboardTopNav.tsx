@@ -7,7 +7,9 @@ const DashboardTopNav = ({ title }: { title: string }) => {
       role="banner"
     >
       <div className="flex items-center flex-1 gap-4 ">
-        <h1 className="text-[20px] font-medium text-[#1A181E]">{title}</h1>
+        <h1 className="text-[20px] font-medium text-foreground-theme">
+          {title}
+        </h1>
         <div className="flex items-center gap-2 text-black/70">
           <Icons.help.sm />
           <span
