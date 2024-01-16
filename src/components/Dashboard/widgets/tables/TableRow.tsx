@@ -21,15 +21,15 @@ const TableRow: React.FC<TableRowProps> = ({
 }) => {
   return (
     <tr className={cn(!isLast && "border-b border-b-[#E6E6E6]")}>
-      <td className="text-[#146EB4] px-0 text-sm leading-5 font-medium">
+      <td className="px-0 text-sm font-medium leading-5 text-primary-theme">
         <p className="py-3.5 cursor-pointer ml-3">#{id}</p>
       </td>
-      <td className="text-[#1A181E] px-0 text-sm leading-5">
+      <td className="px-0 text-sm leading-5 text-foreground-theme">
         <p className="flex gap-2 items-center py-3.5 ml-3">
           <span
             className={cn(
               "w-2.5 h-2.5 rounded-full",
-              status === "Processing" ? "bg-black/40" : "bg-[#17B31B]"
+              status === "Processing" ? "bg-black/40" : "bg-success"
             )}
           ></span>
           {status}

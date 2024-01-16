@@ -16,7 +16,7 @@ const KPICard: React.FC<InfoCardProps> = ({
   isWhite = true,
 }) => {
   const cardColor = isWhite
-    ? "bg-white text-[#1A181E]"
+    ? "bg-white text-foreground-theme"
     : "bg-[#146EB4] text-white";
 
   return (
